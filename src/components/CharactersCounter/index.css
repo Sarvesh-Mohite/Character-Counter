@@ -1,0 +1,59 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+}
+
+.letters-calculator-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 48px;
+}
+
+.label {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.input-element {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  height: 50px;
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #e4e7eb;
+  border-radius: 4px;
+  padding: 10px;
+  outline: none;
+}
+
+.letters-count {
+  background-color: #ffffff;
+  color: #219a6f;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 8px;
+  width: 250px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 600px;
+}
